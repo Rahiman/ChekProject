@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { List } from './list';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'TDF';
+  topics = ['Angular','react','Vue'];
+userList = new List ('Rahiman', 'rahiman.php@gmail.com', 9966144294, 'angular', 'morning', true);
+
 }

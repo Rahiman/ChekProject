@@ -1,0 +1,14 @@
+export class List {
+    constructor(
+        public name : string,
+        public email : string,
+        public phone : number,
+        public topic : string,
+        public prefertime : string,
+        public subscribe : boolean,
+
+    ){
+
+    }
+}
+
